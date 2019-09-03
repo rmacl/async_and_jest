@@ -119,6 +119,11 @@ test('Async function test', async() => {
       expect(response).toEqual(result);
 });  
 ```
+run your test case with the command
+```
+npm test
+```
 
+you should be able to see whether if test passes or not
 
 ![jest_async_test](jest_async_test.png)
